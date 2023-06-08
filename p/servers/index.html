@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from eaglercraft.ru/p/servers/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Jun 2023 07:38:29 GMT -->
+<head>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="../../../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+    <script src="../../../cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBK4SL6P92"></script>
+    <script async src="../../../pagead2.googlesyndication.com/pagead/js/f875b.txt?client=ca-pub-8813036089409443" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="description" content="EaglercraftRU is a website that lets you play Eaglercraft, an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world." />
+    <meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8, eaglercraft, eaglercraft minecraft, eaglercraft 3kh0, eaglercraft github, eaglercraft singleplayer, eaglercraft hacks, eaglercraft 1.8, eaglercraft server, eaglecraft game, eaglercraft alternative, eaglercraft alt links, eaglercraft asspixel, eaglercraft anarchy server, eaglercraft aeon, eaglercraft asspixel server ip, eaglercraft all links, eaglercraft aeon server, eaglercraft beta, eaglecraft boats, eaglecraft boats for sale, eaglecraft boats for sale bc, eaglecraft bedwars server, eaglecraft boats inc, eaglercraft beta servers, eaglercraft blocked, eaglercraft client, eaglecraft custom boats, eaglecraft campbell river, eaglercraft creative, eaglercraft commands, eaglercraft code, eaglercraft controls, eaglercraft com, eaglercraft download, eaglercraft discord, eaglercraft dupe glitch, eaglercraft download file, eaglercraft download google drive, eaglercraft dmca, eaglercraft deleted, eaglercraft down, eaglercraft embed, eaglercraft epk file download, eaglercraft end of stream, eaglecraft apk download, eaglecraft eagtek, eaglercraft exploit, eaglecraft eggs, eaglercraft epk world file download, eaglercraft file, eaglercraft file download, eaglercraft free, eaglercraft forums, eaglercraft fork, eaglercraft faq, eaglercraft fps, eaglecraft free download, eaglercraft github servers, eaglercraft google drive, eaglercraft github lax1dude, eaglercraft github download, eaglercraft github.io, eaglercraft google sites, minecraft, applet, singleplayer, replit, html5, chromebook, lax1dude, games, eaglercraft singleplayer, eagler, minecraft for free, free minecraft" />
+    <meta property="og:title" content="An awesome, free voxel game | EaglercraftRU" />
+    <meta property="og:locale" content="en-US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/titleBG.png" />
+    <meta property="og:description" content="EaglercraftRU is a website that lets you play Eaglercraft, an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world." />
+    <script type="text/javascript" src="../../js/server-embed.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft</title>
+    <link rel="icon" href="../../img/favicon.png" type="image/png">
+    <link href="../../../cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video-js.min.css" rel="stylesheet"/>
+    <style>
+        * {
+            box-sizing: border-box;
+            --color-white: #ffffff;
+            --color-bright: #e0d0d0;
+            --color-blue: #aaaaff;
+            --color-gray: #595959;
+            --color-light-gray: #8e8e8e;
+            --color-red: #9b1616;
+            --color-green: #199719;
+            --color-orange: #f7942b;
+            --color-orange-dark: #b36b1f;
+            --padding: 1em
+        }
+
+        h1 {
+            font-size: 1.75em
+        }
+
+        p,
+        ul,
+        ol {
+            margin-top: 1.5em;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 2em
+        }
+
+        h3 {
+            margin-top: 2em;
+            margin-bottom: 0em
+        }
+
+        body {
+            margin: 0;
+            overflow-y: scroll;
+            background-color: #1d1d1d;
+            background-image: url("../../img/stone.png");
+            font-family: sans-serif;
+            color: var(--color-bright)
+        }
+
+        a {
+            color: var(--color-blue);
+            text-decoration: none
+        }
+
+        .news {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .intro {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        iframe {
+            display: flex;
+            border: none
+        }
+
+        a,
+        a:visited {
+            text-decoration: none
+        }
+
+        .time {
+            font-size: 11px;
+            margin-top: 0em;
+            margin-bottom: 0em;
+            color: #8e8e8e
+        }
+
+        .link {
+            font-size: 11px;
+            margin-top: 0.2em;
+            margin-bottom: 1em;
+            color: var(--color-light-gray)
+        }
+
+        .warning {
+            color: var(--color-red);
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: -1em;
+            text-decoration: none
+        }
+
+        .small {
+            font-size: 11px;
+        }
+
+        .small a {
+            text-decoration: none;
+        }
+
+        li {
+            margin-top: 1em;
+            font-size: 0.8em
+        }
+
+        p {
+            font-size: 0.8em
+        }
+
+        ::-moz-selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        ::selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        .p--warning {
+            color: var(--color-orange);
+            font-weight: bold
+        }
+
+        .span--note {
+            color: var(--color-light-gray);
+            font-size: smaller
+        }
+
+        .navigation-container {
+            background-image: url("../../img/dirt.png");
+            height: 48px;
+            margin-bottom: 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding)
+        }
+
+        .navigation {
+            margin: auto;
+            max-width: 62.5rem;
+            display: flex;
+            flex-direction: row;
+            place-items: center;
+            column-gap: 1em;
+            height: 100%
+        }
+
+        .navigation__logo {
+            float: left;
+            width: 260px;
+            height: 48px;
+            background: transparent url(../../img/minecraft.png) no-repeat 0 1px;
+            display: block;
+            overflow: hidden;
+            text-indent: -10000px
+        }
+
+        .navigation__links--start {
+            text-align: start
+        }
+
+        .navigation__links--end {
+            text-align: end;
+            flex: 1
+        }
+
+        .navigation__link {
+            font-weight: bold;
+            padding: 0.5em
+        }
+
+        .navigation__link--white {
+            color: var(--color-white)
+        }
+
+        .navigation__link--dropdown {
+            color: var(--color-white);
+            position: relative;
+            display: inline-block
+        }
+
+        .navigation__link--dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #444;
+          min-width: 200px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .navigation__link--dropdown-content a {
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .navigation__link--dropdown:hover .navigation__link--dropdown-content {
+          display: block;
+        }
+
+        .navigation__link--dropdown-content a:hover {
+            background-color: #595959;
+        }
+
+        .navigation__link--eng {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .navigation__link--ru {
+            font-weight: bold
+        }
+
+        .main {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 1em;
+            position: relative;
+            padding: 20px 0 40px;
+            place-content: center;
+            column-gap: 2em;
+            row-gap: 2em
+        }
+
+        .main--legal {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 0
+        }
+
+        .section--wide {
+            width: 100%
+        }
+
+        .left {
+            display: block;
+            width: 640px;
+            float: left;
+        }
+
+        .footer {
+            color: var(--color-gray);
+            margin: 2em;
+            text-align: center;
+            font-size: smaller;
+            position: relative;
+            margin-top: -32px;
+            height: 34px;
+            padding-top: 38px;
+            clear: both
+        }
+
+        .footer__link {
+            color: var(--color-light-gray)
+        }
+
+        .version__separator {
+            color: var(--color-gray)
+        }
+
+        .button {
+            background: linear-gradient(#9e9e9e, #4e4e4e);
+            color: var(--color-white);
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            place-items: center;
+            place-content: center;
+            border-radius: 0.25em;
+            padding: 0.5em 1em
+        }
+
+        select {
+            background-image: url("../../img/dirt.png");
+            color: #ffffff;
+            background-color: #444;
+            padding: 0 10px;
+            font-size: 15px;
+        }
+
+        .button--orange {
+            background: linear-gradient(var(--color-orange), var(--color-orange-dark))
+        }
+
+        .status-message {
+            max-width: 44em;
+            margin: auto auto 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding);
+            display: flex;
+            column-gap: 1em;
+            place-content: center;
+            place-items: center
+        }
+
+        .status-message__description {
+            text-align: initial;
+            font-size: larger;
+            flex: 1;
+            margin: 0
+        }
+
+        .game-video {
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 100%
+        }
+
+
+        .play-now {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            place-items: center
+        }
+
+        .play-now__button {
+            font-size: 130%;
+            margin-top: 2.25em;
+            width: 200px
+        }
+
+        .downloads {
+            display: flex;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .downloads__thumbnail {
+            width: 100%;
+            align-self: center;
+            margin-top: 1em;
+            margin-bottom: 2.5em
+        }
+
+        .downloads__links {
+            display: flex;
+            column-gap: 1em;
+            row-gap: 1em
+        }
+
+        .downloads__link {
+            flex: 1
+        }
+
+        .downloads__other {
+            margin-top: 1em;
+            display: flex;
+            place-content: center;
+            column-gap: 1em;
+            flex-wrap: wrap
+        }
+
+        .utilities {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1em;
+            place-content: center;
+            row-gap: 1em
+        }
+
+        .utility {
+            display: flex;
+            flex-direction: column;
+            width: 25em
+        }
+
+        .utility__description {
+            flex: 1
+        }
+
+        .account-form {
+            max-width: 40em;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em
+        }
+
+        .form__input {
+            margin-top: 0.25em;
+            width: 100%;
+            padding: 0.4em
+        }
+
+        .account-form__link {
+            font-size: smaller
+        }
+
+        .form-submit {
+            width: 50%;
+            margin-top: 0.25em
+        }
+
+        @media (max-width: 65em) {
+            .navigation__user-status {
+                display: none
+            }
+        }
+
+        @media (max-width: 50em) {
+            main {
+                margin: 1em;
+                flex-direction: column
+            }
+
+            .navigation__home {
+                display: none
+            }
+
+            .navigation__separator--account,
+            .navigation__user-status {
+                display: none
+            }
+
+            .downloads__links--wide {
+                flex-direction: column
+            }
+        }
+
+        @media (max-width: 37em) {
+            .navigation__username {
+                display: none
+            }
+
+            .navigation__separator {
+                display: none
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header class="navigation-container" aria-label="Header">
+        <nav aria-label="Top Bar" class="navigation">
+            <a class="navigation__logo" href="../../index.html">Minecraft</a>
+            <div class="navigation__links navigation__links--start" aria-label="Site navigation">
+                <a class="navigation__link navigation__link--white" href="../../index.html">Home</a>
+                <div class="navigation__link--dropdown"><a class="navigation__link navigation__link--white">Game</a><div class="navigation__link--dropdown-content"><a class="navigation__link navigation__link--white" href="../game/index.html">What is Minecraft?</a><a class="navigation__link navigation__link--white" href="../howtoplay/index.html">Getting started</a><a class="navigation__link navigation__link--white" href="../credits/index.html">Credits</a></div></div>
+                <a class="navigation__link navigation__link--white" href="../news/index.html">News</a>
+                <a class="navigation__link navigation__link--white" href="../community/index.html">Community</a>
+                <a class="navigation__link navigation__link--white" href="index.html">Servers</a>
+                <!-- <a class="navigation__link navigation__link--white" href="/p/downloads/">Downloads</a> -->
+
+            </div>
+            <div class="navigation__links navigation__links--end" aria-label="Account navigation">
+
+                <!-- <a class="navigation__link">Log in</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!--  <a class="navigation__link">Register</a> -->
+                <div id="google_translate_element"></div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="main" aria-label="Main content">
+        <section class="left" aria-label="Main">
+            <h1>Server List</h1>
+            <p>This page is showcasing a handful of good Eaglercraft Servers to play on online. Scroll down and find a good server that seems right for you, click on the version button, copy it and paste it into the eaglercraft client at the Multiplayer option. We ping each server to ensure they are online and ready to play on. Please keep in mind that if a server shows up as offline it may be blocked on your network.</p>
+            <h2>ArchMC - Official Partner</h2>
+            <p>One of the best Eaglercraft servers with a little bit of everything. Their server runs on high end hardware, has no lag, uses custom coded plugins, runs 24/7, and has unique features. Join their server and try it out, because when we say its the best we really mean it.</p>
+            <p id="ip__archmc" class="link"><a class="link" href="#ip__archmc" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://mc.arch.lol");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="archmc"></div>
+            <h3>VanillaMC</h3>
+            <p id="ip__vanillamc" class="link"><a class="link" href="#ip__vanillamc" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://beta.vanillacraftsmp.org/");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="vanillamc"></div>
+            <h3>A*spixel</h3>
+            <p id="ip__apixel" class="link"><a class="link" href="#ip__apixel" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://web.asspixel.net/CAP/");'>1.5.2 </a><span class="version__separator" aria-hidden="true">|</span><a class="link" href="#ip__apixel" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://mc.asspixel.net/");'> 1.8.8</a> — Click the version you play on to view the servers IP</p>
+            <div id="apixel"></div>
+            <h3>Zentic</h3>
+            <p id="ip__zentic" class="link"><a class="link" href="#ip__zentic" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://zentic.cc");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="zentic"></div>
+            <h3>Hyper Network</h3>
+            <p id="ip__hyper" class="link"><a class="link" href="#ip__hyper" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://hyper-network.me/");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="hyper"></div>
+            <h3>Blobcraft</h3>
+            <p id="ip__blobcraft" class="link"><a class="link" href="#ip__blobcraft" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://blobcraft.duckdns.org");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="blobcraft"></div> 
+            <h3>LegendSMP</h3>
+            <p id="ip__legendsmp" class="link"><a class="link" href="#ip__legendsmp" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://legxndsmp.minecraft.pe");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="legendsmp"></div>         
+            <h3>Water Network</h3>
+            <p id="ip__waternet" class="link"><a class="link" href="#ip__waternet" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://water-network.tk");'>Click here to view the servers IP — 1.5.2 only</a></p>
+            <div id="water"></div>
+            <h3>Asianf4rmer SMP</h3>
+            <p id="ip__asian" class="link"><a class="link" href="#ip__asian" onclick='prompt("Press CTRL+C to copy the server IP.", "wss://asianf4rmer.minecraft.pe");'>Click here to view the servers IP — 1.8.8 only</a></p>
+            <div id="asian"></div>
+        </section>
+    </main>
+    <footer class="footer" aria-label="Footer containing legal information">
+        EaglercraftRU 2022-2023 — 
+        <a class="footer__link" href="../legal/index.html#terms-of-service">Terms of Service</a>
+        | <a class="footer__link" href="../legal/index.html#privacy-policy">Privacy Policy</a>
+         — This website is not affiliated with Mojang.
+    </footer>
+    <script src="../../../cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js"></script>
+    <script>
+        var archmc = new ServerEmbed(document.getElementById("archmc"), "640px");
+        var vanillamc = new ServerEmbed(document.getElementById("vanillamc"), "640px");
+        var apixel = new ServerEmbed(document.getElementById("apixel"), "640px");
+        var zentic = new ServerEmbed(document.getElementById("zentic"), "640px");
+        var hyper = new ServerEmbed(document.getElementById("hyper"), "640px");
+        var blobcraft = new ServerEmbed(document.getElementById("blobcraft"), "640px");
+        var legendsmp = new ServerEmbed(document.getElementById("legendsmp"), "640px");
+        var water = new ServerEmbed(document.getElementById("water"), "640px");
+        var asian = new ServerEmbed(document.getElementById("asian"), "640px");
+            archmc.ping("wss://mc.arch.lol", "ArchMC", "true", "true", "true");
+            vanillamc.ping("wss://play.vanillacraftsmp.org", "VanillaMC", "true", "true", "true");
+            apixel.ping("wss://web.asspixel.net/CAP/", "A*spixel", "true", "true", "true");
+            zentic.ping("wss://zentic.cc", "Zentic", "true", "true", "true");
+            hyper.ping("wss://hyper-network.me/", "Hyper", "true", "true", "true");
+            blobcraft.ping("wss://blobcraft.duckdns.org", "Blobcraft", "true", "true", "true");
+            legendsmp.ping("wss://legxndsmp.minecraft.pe", "LegendSMP", "true", "true", "true");
+            water.ping("wss://water-network.tk", "Water Network", "true", "true", "true");
+            asian.ping("wss://asianf4rmer.minecraft.pe", "Asianf4rmerSMP", "true", "true", "true");
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d3f763bee6b1e5b","version":"2023.4.0","r":1,"b":1,"token":"ef17691dd2754ad48537cd5b4ca6b69f","si":100}' crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from eaglercraft.ru/p/servers/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Jun 2023 07:38:30 GMT -->
+</html>
